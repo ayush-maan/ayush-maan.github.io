@@ -1,0 +1,279 @@
+body {
+    font-family: Arial, sans-serif; /* Set font for the website */
+    line-height: 1.6; /* Adjust line height for readability */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: white; /* Set background color to white */
+    color: black; /* Set text color to black */
+}
+
+.header {
+    background-image: url('hjk5.jpg'); /* Set the background image */
+    background-size: cover; /*Cover the entire header */
+    background-position: center; /* Center the image */
+    color: black; /* Set text color to black */
+    height: 100vh; /* Set height to full viewport height */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Stack items vertically */
+    gap: 2.5rem;
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center align text */
+}
+
+.header-content h1 {
+    font-family: 'Chiller', sans-serif; /* Use Harlow Solid font */
+overflow-wrap: break-word;
+    font-size: 3rem; /* Set font size for heading */
+    margin: 1; /* Remove margin */
+    color: black; /* Set heading text color to black */
+}
+
+.header-content p {
+ font-family: 'Verdana', sans-serif;
+    margin: 0.5rem 0 1.5rem; /* Set margin for paragraph */
+    overflow-wrap: break-word;
+    font-size: 1.2rem; /* Set font size for paragraph */
+    color: black; /* Set paragraph text color to black */
+}
+
+.btn.about-me {
+    margin-top: 1rem; /* Add space above the button */
+    border-radius: 25px; /* Make the button round */
+    padding: 0.8rem 2.5rem; /* Increase padding for roundness */
+}
+
+/* General button styles */
+.btn {
+    display: inline-block; /* Make the button behave like a block */
+    background-color: #007bff; /* Set background color for the button */
+    color: white; /* Set text color for the button */
+    text-transform: uppercase; /* Transform text to uppercase */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make text bold */
+    transition: background 0.3s, transform 0.2s; /* Add transition effects for background and scale */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darken background color on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.about-projects {
+    margin-top: 1rem; /* Add space above the Projects button */
+    border-radius: 25px; /* Make the Projects button round */
+    padding: 0.8rem 2.5rem; /* Increase padding for roundness */
+    background-color: #007bff; /* Set background color for the button */
+    color: white; /* Set text color for the button */
+}
+
+/* Remove default button styles */
+.about-projects {
+    display: inline-block; /* Make the button behave like a block */
+    text-transform: uppercase; /* Transform text to uppercase */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make text bold */
+    transition: background 0.3s, transform 0.2s; /* Add transition effects */
+}
+
+.about-projects:hover {
+    background-color: #0056b3; /* Darken background color on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+#about {
+    padding: 2rem; /* Add padding inside the about section */
+}
+
+.about-me-title {
+    text-align: center; /* Center align the title */
+    font-family: 'Cascadia Code SemiBold', sans-serif; /* Use Copperplate Gothic Bold font */
+    font-size: 2.5rem; /* Set font size */
+    margin: 1rem 0; /* Add space above and below the title */
+    position: relative; /* Enable positioning for the underline */
+}
+
+.about-me-title::after {
+    content: ""; /* Create a pseudo-element for the underline */
+    display: block; /* Make it a block element */
+    width: 3%; /* Set width of the underline */
+    height: 4px; /* Set thickness of the underline */
+    background:  #00008B; /* Set color of the underline */
+    margin: 0 auto; /* Center the underline */
+    margin-top: 0.5rem; /* Add space above the underline */
+}
+
+.about-description {
+    text-align: center; /* Center align the text */
+    font-family: 'Lucida Calligraphy', sans-serif;
+    font-size: 1.2rem; /* Set font size for the description */
+    color: black; /* Set text color to black */
+    margin-top: 1rem; /* Add space above the description */
+}
+
+.about-details {
+    display: flex;
+    background-color: #f9f9f9;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 2rem;
+    padding: 0 4rem; /* Adjust padding to add space from window edges */
+}
+
+.right-column {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: 4rem; /* Add some space between the column and the window's right edge */
+}
+
+
+.left-column {
+    max-width: 600px; /* Set maximum width for left column */
+    margin-right: 2rem; /* Add space to the right of the column */
+}
+
+
+
+.toolkit-buttons {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow buttons to wrap */
+}
+
+.toolkit-button {
+    background-color: black; /* Set background color to black */
+    color: white; /* Set text color to white */
+    padding: 0.5rem 1rem; /* Set padding for buttons */
+    margin: 0.5rem; /* Add margin between buttons */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Round corners of buttons */
+    transition: background 0.3s; /* Add transition for background color */
+}
+
+.toolkit-button:hover {
+    background-color: #333; /* Darken background on hover */
+}
+
+.underline-heading {
+    text-align: center; /* Center align the heading */
+    text-decoration: underline; /* Underline the heading */
+    margin: 2rem 0; /* Add margin above and below the heading */
+    font-size: 2rem; /* Set font size */
+}
+
+#contact {
+    padding: 2rem; /* Add padding inside the contact section */
+    background-color: #ffffff; /* Set a light background for the contact section */
+}
+
+#contact h2 { /* Assuming your contact title is an <h2> */
+    margin-top: 0; /* Remove top margin */
+    padding-left: 0; /* Remove any left padding */
+}
+.contact-form {
+    max-width: 800px; /* Set maximum width for the form */
+    margin: 0 auto; /* Center the form */
+}
+
+.form-group {
+    margin-bottom: 1rem; /* Add space below each form group */
+}
+
+label {
+    display: block; /* Make label a block element */
+    margin-bottom: 0.5rem; /* Add space below the label */
+}
+
+input, textarea {
+    width: 100%; /* Set width to fill the container */
+    padding: 0.5rem; /* Add padding inside input and textarea */
+    border: 1px solid #ccc; /* Set border style */
+    border-radius: 4px; /* Round corners of input and textarea */
+}
+
+.submit-button {
+    background-color: black; /* Set background color to black */
+    color: white; /* Set text color to white */
+    padding: 0.5rem 1.5rem; /* Set padding for the submit button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Round corners of the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background 0.3s; /* Add transition for background color */
+}
+
+.submit-button:hover {
+    background-color: #333; /* Darken background on hover */
+}
+.footer {
+    padding: 2rem; /* Space around the footer */
+    text-align: left; /* Align text to the left */
+}
+
+.footer-divider {
+    border: none; /* Remove default border */
+    height: 2px; /* Set height of the line */
+    width: 60%; /* Set width of the line */
+    background-color: #000000; /* Set color of the line */
+    margin: 1rem auto; /* Center the line and add space above and below */
+}
+
+.footer-content {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between the two columns */
+}
+
+.footer-left {
+    flex: 1; /* Allow left column to grow */
+}
+
+.footer-right {
+    flex: 1; /* Allow right column to grow */
+    text-align: right; /* Align links to the right */
+}
+
+.contact-links a {
+    margin: 0 1rem; /* Spacing between links */
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Link color */
+}
+
+.contact-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+.footer p {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    padding-left: 17px; /* Add left padding for spacing */
+    margin-top: 1rem; /* Add space above the paragraph to separate from the line */
+}
+.title-font {
+    font-family: 'Chiller', sans-serif; /* Font for title */
+    font-size: 1.5rem; /* Font size for the title */
+    color: black; /* Color for the title */
+}
+
+.description-font {
+    font-family: 'Copperplate Gothic Bold', sans-serif; /* Font for description */
+    font-size: 1rem; /* Font size for the description */
+    color: black; /* Color for the description */
+}
+.contact-links {
+    display: flex; /* Arrange links in a row */
+    justify-content: flex-end; /* Align links to the right */
+    align-items: center; /* Align items vertically */
+    margin-top: 1rem; /* Add space above the links */
+}
+
+.contact-links a {
+    margin: 0 1rem; /* Add space between each link */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.social-icon {
+    width: 30px; /* Set width for the icons */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.2s; /* Add hover effect */
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Slightly enlarge icon on hover */
+}

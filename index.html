@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Set character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design -->
+    <title>Ayushmaan's Portfolio</title> <!-- Page title -->
+    <link href="https://fonts.googleapis.com/css2?family=Harlow+Solid&display=swap" rel="stylesheet"> <!-- Harlow Solid font -->
+    <link href="https://fonts.googleapis.com/css2?family=Copperplate+Gothic+Bold&display=swap" rel="stylesheet"> <!-- Copperplate Gothic Bold font -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+</head>
+<body>
+    <header class="header"> <!-- Header section -->
+        <div class="header-content">
+            <h1>Hey, I'm Ayushmaan!</h1> <!-- Main heading -->
+            <p class="about-description">Web developer who enjoys building fast and accessible digital products</p> <!-- Centered description -->
+            <a href="#about" class="btn about-me">About Me</a> <!-- About Me button -->
+        </div>
+    </header>
+
+    <section id="about"> <!-- About section -->
+        <h2 class="about-me-title">About Me</h2> <!-- About Me heading -->
+        <p class="about-description">Developing for the last one year with a great drive in the subject.</p> <!-- Centered description -->
+        <div class="about-details">
+            <div class="left-column">
+                <h3>Get to know me!</h3> <!-- Get to know me heading -->
+                <p>My passion for web development fuels my dedication to building fast, accessible, and innovative digital solutions.</p>
+                <p>I’m driven by the challenge of solving problems with technology and creating seamless user experiences.</p>
+                <p>In my free time, I build side projects and like exploring new technologies. You can see some of my work in the projects section below.</p>
+                <p>Collaboration and growth are at the core of my work, as I’m always eager to contribute and refine my skills in every project I take on.</p>
+                <a href="#projects" class="btn about-projects">Projects</a> <!-- Updated Projects button -->
+            </div>
+            <div class="right-column">
+                <h3>My Toolkit</h3> <!-- My Toolkit heading -->
+                <div class="toolkit-buttons">
+                    <span class="toolkit-button">JavaScript</span> <!-- Toolkit button without link -->
+                    <span class="toolkit-button">Next.Js</span> <!-- Toolkit button without link -->
+                    <span class="toolkit-button">React.Js</span> <!-- Toolkit button without link -->
+                    <span class="toolkit-button">Node.Js</span> <!-- Toolkit button without link -->
+                    <span class="toolkit-button">Typescript</span> <!-- Toolkit button without link -->
+                    <span class="toolkit-button">CSS</span> <!-- Toolkit button without link -->
+                    <span class="toolkit-button">Git</span> <!-- Toolkit button without link -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h2 id="projects" class="underline-heading">Projects</h2> <!-- Added ID for Projects heading -->
+
+    <section id="contact"> <!-- Contact section -->
+        <h2>Contact Me</h2> <!-- Contact Me heading -->
+        <form class="contact-form"> <!-- Contact form -->
+            <div class="form-group"> <!-- Form group for Title -->
+                <label for="title">Title</label> <!-- Title label -->
+                <input type="text" id="title" name="title" required> <!-- Title input -->
+            </div>
+            <div class="form-group"> <!-- Form group for Message -->
+                <label for="message">Write Message</label> <!-- Message label -->
+                <textarea id="message" name="message" rows="4" required></textarea> <!-- Message textarea -->
+            </div>
+            <button type="submit" class="submit-button">Submit</button> <!-- Submit button -->
+        </form>
+    </section>
+<footer class="footer">
+    <hr class="footer-divider"> <!-- Horizontal line -->
+    <div class="footer-content">
+        <div class="footer-left">
+            <p class="title-font">Ayushmaan</p>
+            <p class="description-font">Web developer who enjoys building fast <br> and accessible digital products.</p>
+        </div>
+         <div class="footer-right contact-links">
+            <a href="https://www.linkedin.com/in/ayushmaan-017a89292/">
+                <img src="linkedin-icon.png" alt="LinkedIn" class="social-icon">
+            </a>
+            <a href="https://github.com/ayush-maan/">
+                <img src="github-icon.png" alt="GitHub" class="social-icon">
+            </a>
+        </div>    </div>
+</footer>
+</body>
+</html>
